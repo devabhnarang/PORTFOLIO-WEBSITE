@@ -100,18 +100,6 @@ body {
   line-height: 1.1;
 }
 
-.typewriter::after {
-  content: '|';
-  position: absolute;
-  right: -6px;
-  color: #7dd3fc;
-  animation: blink 1s infinite;
-}
-
-@keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
-}
 
 .subtitle {
   font-size: 1.1rem;
