@@ -523,6 +523,7 @@ p {
   
   body {
     padding: 14px;
+    background-attachment: scroll;
   }
   
   .container.dashboard {
