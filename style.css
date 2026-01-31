@@ -522,7 +522,13 @@ p {
   }
   
   body {
-    padding: 14px;
+    background:
+      radial-gradient(700px 400px at 20% 10%, rgba(56,189,248,0.45), transparent),
+      radial-gradient(700px 400px at 80% 15%, rgba(99,102,241,0.45), transparent),
+      url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
   }
   
   .container.dashboard {
