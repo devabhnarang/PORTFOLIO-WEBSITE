@@ -524,6 +524,7 @@ p {
   body {
     padding: 14px;
     background-attachment: scroll;
+    background-position: center top;
   }
   
   .container.dashboard {
